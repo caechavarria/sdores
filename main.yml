@@ -4,6 +4,6 @@
   gather_facts: false
   vars:
     - ansible_python_interpreter: /usr/bin/python3
-    - sdores/var/: vars.yml
+    #- var/: vars.yml
   tasks:
     - import_tasks: tasks/main.yml
