@@ -1,10 +1,9 @@
-base_svr_groups:
-  - name: developers
-    groupid: 30000
-    sudo: false
-  - name: operations
-    groupid: 31000
-    sudo: true
-  - name: qa
-    groupid: 32000
-    sudo: false
+- name: developers
+  groupid: 30000
+  sudo: false
+- name: operations
+  groupid: 31000
+  sudo: true
+- name: qa
+  groupid: 32000
+  sudo: false
